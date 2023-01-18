@@ -1,0 +1,630 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Speedrun</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css' rel='stylesheet'
+        integrity='sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi' crossorigin='anonymous'>
+    <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js'
+        integrity='sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3'
+        crossorigin='anonymous'></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="mat-typography">
+    <nav class="navbar navbar-expand-lg" data-bs-theme="dark" style="background-color: #0a265a;">
+        <div class="container-fluid">
+            <div class="mx-3 d-flex">
+                <img src="assets/img/logo.svg" height="80" routerLink="/home">
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="bi bi-list text-white"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="text-white menu-btn" routerLink="/home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="text-white menu-btn" href="#about">Chi siamo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="text-white menu-btn" href="#services">Corsi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="text-white menu-btn" href="#team">Staff</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="text-white menu-btn" href="#faq">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="text-white menu-btn" href="#contact">Contatti</a>
+                    </li>
+                </ul>
+                <div>
+                    <a href="https://www.adfencing.it/schermabergamo/login.php" target="_blank"><button
+                            class="btn btn-secondary mx-3"><i class="bi bi-person-fill"></i> Login</button></a>
+                </div>
+            </div>
+
+
+        </div>
+    </nav>
+
+    <section id="hero" class="d-flex align-items-center">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
+                    data-aos="fade-up" data-aos-delay="200">
+                    <h1>Scherma Bergamo</h1>
+                    <h2>Da 15 anni protagonisti della scherma bergamasca</h2>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+                    <img src="../../assets/img/logo.svg" class="img-fluid animated" alt="" width="500">
+                </div>
+            </div>
+        </div>
+
+    </section><!-- End Hero -->
+
+    <main id="main">
+
+        <!-- ======= About Us Section ======= -->
+        <section id="about" class="about">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h2>Chi siamo</h2>
+                </div>
+
+                <div class="row content">
+                    <div class="col-lg-6">
+                        <p>
+                            Nati nel 2007 con poche risorse e pochissimi iscritti, ci siamo affermati fin da subito a
+                            livello regionale
+                            e nazionale nelle categorie giovanili e master. Da qualche anno abbiamo iniziato a ottenere
+                            buoni risultati
+                            anche a livello internazionale.
+                            In continuità con la filosofia del fondatore, Nando Cappelli, l’attuale dirigenza porta
+                            avanti il concetto
+                            di scherma accessibile a tutti.
+                        </p>
+                    </div>
+                    <div class="col-lg-6 pt-4 pt-lg-0">
+                        <p>
+                            Il nostro non è uno sport elitario e le nostre attività coinvolgono atleti
+                            di tutte le età, dai bambini in età prescolare, fino agli ultrasettantenni, di tutte le
+                            classi sociali. Tra
+                            i nostri atleti, inoltre, siamo felice di annoverare il nostro gruppo di schermidori
+                            paralimpici che
+                            svolgono regolarmente le lezioni in modo integrato
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section><!-- End About Us Section -->
+
+        <!-- ======= Why Us Section ======= -->
+        <section id="why-us" class="why-us section-bg">
+            <div class="container-fluid" data-aos="fade-up">
+
+                <div class="row">
+
+                    <div
+                        class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
+
+                        <div class="content">
+                            <h3>I nostri <strong>VALORI</strong></h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et
+                                dolore magna aliqua. Duis aute irure dolor in reprehenderit
+                            </p>
+                        </div>
+
+                        <div class="accordion-list">
+                            <ul>
+                                <li>
+                                    <a data-bs-toggle="collapse" class="collapse"
+                                        data-bs-target="#accordion-list-1"><span>-</span> Rispetto
+                                        <i class="bx bx-chevron-down icon-show"></i><i
+                                            class="bx bx-chevron-up icon-close"></i></a>
+                                    <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
+                                        <p>
+                                            Capacità di "vedere", di "accorgersi" e ancora più conoscere l'altro,
+                                            tenendo conto delle sue
+                                            differenze individuali, senza cercare di manipolarle e senza pretendere che
+                                            l'altro si comporti
+                                            diversamente da com’è.
+                                        </p>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2"
+                                        class="collapsed"><span>-</span>
+                                        Passione <i class="bx bx-chevron-down icon-show"></i><i
+                                            class="bx bx-chevron-up icon-close"></i></a>
+                                    <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
+                                        <p>
+                                            Costanza nei propri interessi e obiettivi
+                                            Mettersi in gioco con se stessi e con gli altri. É sana competizione, è un
+                                            continuo superamento dei
+                                            propri limiti, è sacrificio
+                                        </p>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3"
+                                        class="collapsed"><span>-</span>
+                                        Inclusione <i class="bx bx-chevron-down icon-show"></i><i
+                                            class="bx bx-chevron-up icon-close"></i></a>
+                                    <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
+                                        <p>
+                                            Qualità fondamentale nel nostro contesto sportivo che integra l’attività
+                                            amatoriale con quella
+                                            agonistica e l’olimpica con la paralimpica, sia per non vedenti che in
+                                            carrozzina.
+                                        </p>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <a data-bs-toggle="collapse" data-bs-target="#accordion-list-4"
+                                        class="collapsed"><span>-</span> Impegno
+                                        <i class="bx bx-chevron-down icon-show"></i><i
+                                            class="bx bx-chevron-up icon-close"></i></a>
+                                    <div id="accordion-list-4" class="collapse" data-bs-parent=".accordion-list">
+                                        <p>
+                                            Impiegare tutte le proprie forze per la realizzazione di un obiettivo. Il
+                                            conseguimento di un
+                                            risultato come tagliare un traguardo, realizzare più punti in una
+                                            competizione, essere il più veloce
+                                            si ottiene solo con la perseveranza e la dedizione
+
+                                        </p>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+
+                    <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img"
+                        style='background-image: url("https://images.unsplash.com/photo-1631529335333-56f0179d6e4b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzF8fGZlbmNpbmclMjBlcGVlfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=500&q=60");'
+                        data-aos="zoom-in" data-aos-delay="150">&nbsp;</div>
+                </div>
+
+            </div>
+        </section><!-- End Why Us Section -->
+
+        <!-- ======= Services Section ======= -->
+        <section id="services" class="services section-bg">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h2>I nostri corsi</h2>
+                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit
+                        sint
+                        consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+                        Quia fugiat sit
+                        in iste officiis commodi quidem hic quas.</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="icon-box">
+                            <div class="icon"><i class="bx bxl-dribbble"></i></div>
+                            <h4><a href="">Scherma Olimpica</a></h4>
+                            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in"
+                        data-aos-delay="200">
+                        <div class="icon-box">
+                            <div class="icon"><i class="bx bx-file"></i></div>
+                            <h4><a href="">Scherma Paralimpica</a></h4>
+                            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in"
+                        data-aos-delay="300">
+                        <div class="icon-box">
+                            <div class="icon"><i class="bx bx-tachometer"></i></div>
+                            <h4><a href="">Preparazione atletica</a></h4>
+                            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in"
+                        data-aos-delay="400">
+                        <div class="icon-box">
+                            <div class="icon"><i class="bx bx-layer"></i></div>
+                            <h4><a href="">Service 4</a></h4>
+                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section><!-- End Services Section -->
+
+        <!-- ======= Team Section ======= -->
+        <section id="team" class="team section-bg">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h2>Staff</h2>
+                </div>
+
+                <div class="row">
+
+                    <div class="col-lg-6">
+                        <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+                            <div class="pic"><img
+                                    src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+                                    class="img-fluid" alt=""></div>
+                            <div class="member-info">
+                                <h4>Sabina Oreda</h4>
+                                <span>Presidente</span>
+                                <div class="social">
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                    <a href=""><i class="bi bi-envelope-at"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 mt-4 mt-lg-0">
+                        <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
+                            <div class="pic"><img
+                                    src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+                                    class="img-fluid" alt=""></div>
+                            <div class="member-info">
+                                <h4>Francesco Calabrese</h4>
+                                <span>Maestro e direttore di sala</span>
+                                <div class="social">
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                    <a href=""><i class="bi bi-envelope-at"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 mt-4">
+                        <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="300">
+                            <div class="pic"><img
+                                    src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+                                    class="img-fluid" alt=""></div>
+                            <div class="member-info">
+                                <h4>Vito Capuano</h4>
+                                <span>Istruttore II liv. SNaQ</span>
+                                <div class="social">
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                    <a href=""><i class="bi bi-envelope-at"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 mt-4">
+                        <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
+                            <div class="pic"><img
+                                    src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+                                    class="img-fluid" alt=""></div>
+                            <div class="member-info">
+                                <h4>Giacomo Gazzaniga</h4>
+                                <span>Istruttore I liv. SNaQ</span>
+                                <div class="social">
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                    <a href=""><i class="bi bi-envelope-at"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 mt-4">
+                        <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="300">
+                            <div class="pic"><img
+                                    src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+                                    class="img-fluid" alt=""></div>
+                            <div class="member-info">
+                                <h4>Francesco Foglieni</h4>
+                                <span>Preparatore atletico</span>
+                                <p>sede Bergamo</p>
+                                <div class="social">
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                    <a href=""><i class="bi bi-envelope-at"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 mt-4">
+                        <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
+                            <div class="pic"><img
+                                    src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+                                    class="img-fluid" alt=""></div>
+                            <div class="member-info">
+                                <h4>Mattia Finazzi</h4>
+                                <span>Preparatore atletico</span>
+                                <p>sede Romano di Lombardia</p>
+                                <div class="social">
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                    <a href=""><i class="bi bi-envelope-at"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 mt-4">
+                        <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
+                            <div class="pic"><img
+                                    src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+                                    class="img-fluid" alt=""></div>
+                            <div class="member-info">
+                                <h4>Irina Buntina</h4>
+                                <span>Responsabile gestionale amministrativo</span>
+                                <div class="social">
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                    <a href=""><i class="bi bi-envelope-at"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 mt-4">
+                        <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
+                            <div class="pic"><img
+                                    src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png"
+                                    class="img-fluid" alt=""></div>
+                            <div class="member-info">
+                                <h4>Paola Gionfriddo</h4>
+                                <span>Responsabile gestionale amministrativo</span>
+                                <div class="social">
+                                    <a href=""><i class="bi bi-facebook"></i></a>
+                                    <a href=""><i class="bi bi-instagram"></i></a>
+                                    <a href=""><i class="bi bi-linkedin"></i></a>
+                                    <a href=""><i class="bi bi-envelope-at"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section><!-- End Team Section -->
+
+        <!-- ======= Frequently Asked Questions Section ======= -->
+        <!-- <section id="faq" class="faq section-bg">
+          <div class="container" data-aos="fade-up">
+            <div class="section-title">
+              <h2>Frequently Asked Questions</h2>
+              <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint
+                consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit
+                in iste officiis commodi quidem hic quas.</p>
+            </div>
+            <div class="faq-list">
+              <ul>
+                <li data-aos="fade-up" data-aos-delay="100">
+                  <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse"
+                    data-bs-target="#faq-list-1">Non consectetur a erat nam at lectus urna duis? <i
+                      class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+                    <p>
+                      Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur
+                      gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                    </p>
+                  </div>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="200">
+                  <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2"
+                    class="collapsed">Feugiat scelerisque varius morbi enim nunc? <i
+                      class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+                    <p>
+                      Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id
+                      donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit
+                      ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                    </p>
+                  </div>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="300">
+                  <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3"
+                    class="collapsed">Dolor sit amet consectetur adipiscing elit? <i
+                      class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+                    <p>
+                      Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum
+                      integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt.
+                      Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                    </p>
+                  </div>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="400">
+                  <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4"
+                    class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i
+                      class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
+                    <p>
+                      Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc
+                      vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus
+                      gravida quis blandit turpis cursus in.
+                    </p>
+                  </div>
+                </li>
+                <li data-aos="fade-up" data-aos-delay="500">
+                  <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5"
+                    class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem
+                    dolor? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                  <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
+                    <p>
+                      Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada
+                      nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis
+                      tellus in metus vulputate eu scelerisque.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section> -->
+        <!-- End Frequently Asked Questions Section -->
+
+        <!-- ======= Sponsor Section ======= -->
+        <section id="sponsor">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h2>I nostri sponsor</h2>
+
+                </div>
+
+                <div class="row d-flex justify-content-center">
+                    <div class="col-xl-3 col-md-6 text-center" data-aos="zoom-in" data-aos-delay="100">
+                        <div>
+                            <img src="assets/img/TTS E MADI - Logo.png" alt="logo sponsor" width="500px">
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section><!-- End Services Section -->
+
+        <!-- ======= Contact Section ======= -->
+        <section id="contact" class="contact">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h2>Contact</h2>
+                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit
+                        sint
+                        consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+                        Quia fugiat sit
+                        in iste officiis commodi quidem hic quas.</p>
+                </div>
+
+                <div class="row">
+                    <div class="col d-flex align-items-stretch">
+                        <div class="info">
+                            <div class="address">
+                                <i class="bi bi-geo-alt"></i>
+                                <h4>Indirizzo:</h4>
+                                <a href="https://goo.gl/maps/Dhq1HxswobmHpdvU7" target="_blank">
+                                    <p>Piazzale della Scienza 5, 24126, Bergamo BG</p>
+                                </a>
+                                <a href="https://goo.gl/maps/AEdgX7gTpog1q4Tg9" target="_blank">
+                                    <p>Via G. Mazzini 5, 24058, Romano di Lombardia BG</p>
+                                </a>
+                            </div>
+
+                            <div class="email">
+                                <i class="bi bi-envelope"></i>
+                                <h4>Email:</h4>
+                                <p>info@schermabergamo.it</p>
+                                <p>marketing@schermabergamo.it</p>
+                            </div>
+
+                            <div class="phone">
+                                <i class="bi bi-telephone"></i>
+                                <h4>Tel:</h4>
+                                <p>+39 3392239739</p>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section><!-- End Contact Section -->
+
+    </main><!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+
+        <div class="footer-top">
+            <div class="container">
+                <div class="row text-center">
+
+                    <div class="col-lg-4 col-md-4 footer-contact">
+                        <h3>Scherma Bergamo</h3>
+                        <p>
+                            Piazzale della Scienza 5, 24126, Bergamo BG<br>
+                            Via G. Mazzini 5, 24058, Romano di Lombardia BG<br>
+                            <strong>Phone:</strong> +39 3392239739<br>
+                            <strong>Email:</strong> info@schermabergamo.it<br>
+                        </p>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 footer-contact">
+                        <h3>Our Social Networks</h3>
+                        <div class="social-links my-3">
+                            <a href="https://www.facebook.com/Scherma.Bergamo" class="facebook"><i
+                                    class="bi bi-facebook"></i></a>
+                            <a href="https://www.instagram.com/schermabergamo/" class="instagram"><i
+                                    class="bi bi-instagram"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 footer-contact">
+                        <h3>Privacy policy</h3>
+                        <div class="privacy-policy my-3 text-white">
+                            <a href="https://www.iubenda.com/privacy-policy/817282/full-legal" target="_blank"
+                                class="facebook">Privacy policy</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container footer-bottom clearfix">
+
+
+        </div>
+    </footer><!-- End Footer -->
+
+    <script type="text/javascript">
+        var _iub = _iub || [];
+        _iub.csConfiguration = { "askConsentAtCookiePolicyUpdate": true, "countryDetection": true, "enableLgpd": true, "enableUspr": true, "floatingPreferencesButtonDisplay": "anchored-center-right", "invalidateConsentWithoutLog": true, "lgpdAppliesGlobally": false, "perPurposeConsent": true, "siteId": 380738, "whitelabel": false, "cookiePolicyId": 817282, "lang": "it", "banner": { "acceptButtonCaptionColor": "#313E5F", "acceptButtonColor": "#D8FEE2", "acceptButtonDisplay": true, "backgroundColor": "#313E5F", "backgroundOverlay": true, "brandBackgroundColor": "#313E5F", "closeButtonDisplay": false, "customizeButtonCaptionColor": "#FFFFFF", "customizeButtonColor": "#46516F", "customizeButtonDisplay": true, "explicitWithdrawal": true, "listPurposes": true, "logo": "data:image/svg+xml;base64,PHN2ZyBpZD0iTGl2ZWxsb18xX0ltbWFnaW5lIiBkYXRhLW5hbWU9IkxpdmVsbG8gMcKgSW1tYWdpbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHZpZXdCb3g9IjAgMCA4NzIuMTQgNDAwLjQyIj48ZGVmcz48c3R5bGU+LmNscy0xLC5jbHMtNywuY2xzLTh7ZmlsbDpub25lO30uY2xzLTJ7ZmlsbDojZjRlOTMwO30uY2xzLTN7Y2xpcC1wYXRoOnVybCgjY2xpcC1wYXRoKTt9LmNscy00e2ZpbGw6IzJiMmY3Yjt9LmNscy01e2NsaXAtcGF0aDp1cmwoI2NsaXAtcGF0aC0yKTt9LmNscy02e2NsaXAtcGF0aDp1cmwoI2NsaXAtcGF0aC00KTt9LmNscy03e3N0cm9rZTojZmZmO30uY2xzLTcsLmNscy04e3N0cm9rZS13aWR0aDowLjVweDt9LmNscy04e3N0cm9rZTojMmIyZjdiO30uY2xzLTl7ZmlsbDojZWMyMDI0O30uY2xzLTEwe2NsaXAtcGF0aDp1cmwoI2NsaXAtcGF0aC02KTt9LmNscy0xMXtmaWxsOiNmZmYwMDA7fTwvc3R5bGU+PGNsaXBQYXRoIGlkPSJjbGlwLXBhdGgiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEyNy42IC0xNC40NSkiPjxyZWN0IGNsYXNzPSJjbHMtMSIgd2lkdGg9IjIzNzguOTciIGhlaWdodD0iNDI2LjQyIi8+PC9jbGlwUGF0aD48Y2xpcFBhdGggaWQ9ImNsaXAtcGF0aC0yIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMjcuNiAtMTQuNDUpIj48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik0yOTYuNzcsMTEwLjA5YTIzLjk0LDIzLjk0LDAsMCwxLTYuNTEsMCwzMy41OSwzMy41OSwwLDAsMC0xMS4wNi40NmMtNywxLjc2LTguMzQsMTQuNS04LjM0LDE3LjU3cy0xLjc2LDYuMTUtMTQuOTQsMTAuNTUtMzQuMjcuNDMtMzguNjYsMC0xNi4yNi0xLjMyLTIzLjcyLTIuMi0zNi40NywyLjYzLTQwLjg2LDIuNjNTMTQzLDEzNy43NywxNDAuODIsMTM2cy04LjM1LTUuNzEtMjAuMjEtMy41MS00LjM5LDcuOS0uODgsNy45YTkxLjY3LDkxLjY3LDAsMCwxLDExLDEuMzJzLTQsMy4wOC0uNDMsNCwzOC42Niw0LjgzLDQxLjI5LDQuODMsMzAuMzEuODcsNTEuNCw0LjgzLDE0LjUsMTUuMzcsMTMuMTgsMjIuNDFTMjEyLjQzLDE5OC4zOSwyMDUsMjA2LjNjLTYsNi4zNC0yMi41MiwxMi42NC0yNS45MiwxMy42Mi0zLjA4Ljg3LTI1LDE1LjgxLTI3LjI0LDE3LjEzcy04LjM1LDQuMzktMjMuMjgsNi41OS00MS43NCwyMC42NS00Mi4xOCwyMi05LjIyLDcuNDctMTEuODYsNS43MlM1NS4xNSwyNzcsNDcuMjUsMjc5LjY2cy0xNC4wNiw5LjIzLTguNzksMTUuODJTNjAsMjk0LjYsNjIuNjIsMjkyLjRzMTQuNS01LjI3LDE3LjU3LTYuMTQsNi4xNS00LjQsMTIuNzQtOS42NywxNi4yNi01LjI3LDI4LjU2LTEwLjU1LDM4LjY2LTcuNDYsNDIuMTctNy45LDguMzUtNS4yOCw0MC40Mi0xNC4wNiwxMDEtNjEuMDcsMTA2Ljc1LTY1Ljg5LDIwLjY1LTcuOTEsMjQuNi03LjkxLDIwLjY1LTYuNTksMjQuNjEtNy40NywyMS4wOC0xLjMyLDI0LjYtNC4zOSwxNS44MS03LjQ4LDIwLjY1LTcuNDgsMjMtLjg3LDIzLS44N2M3LDAsNy0xMi4zLDctMTIuM0w2MDQsMTEzLjE3cy0xNTQsMjAuNS0xNjIuODQsMjIuMjVhMTAuNDksMTAuNDksMCwwLDAtMi42Ni44MWMtLjU1LS43NC0xLjkzLTEuOTItNC45NS0zLjczLTExLjcyLTctMTQuMDYuNTgtMTQuMDYuNTgtMi4wNS0uMy0xMS4xMywyLTEzLjMzLDQuNjlzLTEyLjc0LDIuNjMtMTguNDUsNC4zOS0yMi40LDEuNzYtMjUsMi42NC0xOC44OSwzLjk1LTI4LjU1LDMuOTUtMTguODkuNDQtMjEuNTMtLjg4LDEuMzItNy45MSw0LjgzLTE0LjQ5LTEuMzItMTcuMTQtMy45NS0yMS4wOWMtMS41MS0yLjI3LTUuNDgtMy05LjM0LTNhMzcuMDksMzcuMDksMCwwLDAtNy4zNi43NSIvPjwvY2xpcFBhdGg+PGNsaXBQYXRoIGlkPSJjbGlwLXBhdGgtNCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTI3LjYgLTE0LjQ1KSI+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMzA2Ljc0LDExOS4wNmEyNC4wNywyNC4wNywwLDAsMS02LjUyLDAsMzMuNjIsMzMuNjIsMCwwLDAtMTEuMDYuNDdjLTcsMS43NS04LjM0LDE0LjQ5LTguMzQsMTcuNTdzLTEuNzYsNi4xNS0xNC45NCwxMC41NC0zNC4yNy40NC0zOC42NiwwLTE2LjI2LTEuMzItMjMuNzItMi4xOS0zNi40NywyLjYzLTQwLjg2LDIuNjNTMTUzLDE0Ni43MywxNTAuNzgsMTQ1cy04LjM1LTUuNzEtMjAuMjEtMy41Mi00LjM5LDcuOTEtLjg3LDcuOTFhOTEuNyw5MS43LDAsMCwxLDExLDEuMzJzLTMuOTUsMy4wNy0uNDMsMy45NSwzOC42Niw0LjgzLDQxLjI5LDQuODMsMzAuMzEuODgsNTEuNCw0Ljg0LDE0LjUsMTUuMzcsMTMuMTgsMjIuNC0yMy43MiwyMC42NS0zMS4xOSwyOC41NmMtNiw2LjMzLTIyLjUyLDEyLjY1LTI1LjkyLDEzLjYyLTMuMDguODctMjUsMTUuODEtMjcuMjQsMTcuMTNzLTguMzQsNC4zOS0yMy4yOCw2LjU5LTQxLjc0LDIwLjY1LTQyLjE4LDIyLTkuMjIsNy40Ny0xMS44Niw1LjcxUzY1LjExLDI4Niw1Ny4yMSwyODguNjNzLTE0LjA2LDkuMjMtOC43OSwxNS44MiwyMS41My0uODgsMjQuMTYtMy4wOCwxNC41LTUuMjcsMTcuNTgtNi4xNSw2LjE0LTQuMzksMTIuNzMtOS42NiwxNi4yNi01LjI4LDI4LjU2LTEwLjU1LDM4LjY2LTcuNDcsNDIuMTctNy45UzE4MiwyNjEuODMsMjE0LDI1My4wNXMxMDEtNjEuMDcsMTA2Ljc1LTY1LjksMjAuNjUtNy45MSwyNC42LTcuOTFTMzY2LDE3Mi42NSwzNzAsMTcxLjc3czIxLjA4LTEuMzEsMjQuNi00LjM5LDE1LjgyLTcuNDcsMjAuNjUtNy40NywyMy0uODgsMjMtLjg4YzcsMCw3LTEyLjMsNy0xMi4zTDYxNCwxMjIuMTNzLTE1NC4wNiwyMC41LTE2Mi44NSwyMi4yNmExMC40OSwxMC40OSwwLDAsMC0yLjY2LjgxYy0uNTUtLjc0LTEuOTMtMS45My00Ljk1LTMuNzQtMTEuNzEtNy0xNC4wNi41OS0xNC4wNi41OS0yLS4zLTExLjEzLDItMTMuMzMsNC42OHMtMTIuNzQsMi42NC0xOC40NSw0LjQtMjIuNCwxLjc1LTI1LDIuNjMtMTguODksNC0yOC41NSw0LTE4Ljg5LjQ0LTIxLjUzLS44OCwxLjMyLTcuOTEsNC44NC0xNC41LTEuMzMtMTcuMTMtNC0yMS4wOWMtMS41MS0yLjI2LTUuNDgtMi45NC05LjM0LTIuOTRhMzYuMTYsMzYuMTYsMCwwLDAtNy4zNS43NSIvPjwvY2xpcFBhdGg+PGNsaXBQYXRoIGlkPSJjbGlwLXBhdGgtNiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTI3LjYgLTE0LjQ1KSI+PHBhdGggY2xhc3M9ImNscy0xIiBkPSJNMzE2LjcsMTI4YTI0LDI0LDAsMCwxLTYuNTIsMCwzMy41MywzMy41MywwLDAsMC0xMS4wNS40NmMtNywxLjc2LTguMzUsMTQuNS04LjM1LDE3LjU3cy0xLjc1LDYuMTUtMTQuOTQsMTAuNTUtMzQuMjYuNDMtMzguNjYsMC0xNi4yNS0xLjMyLTIzLjcyLTIuMlMxNzcsMTU3LDE3Mi42LDE1N3MtOS42Ni0xLjMxLTExLjg2LTMuMDctOC4zNC01LjcxLTIwLjIxLTMuNTEtNC4zOSw3LjkxLS44Nyw3LjkxYTkyLjYzLDkyLjYzLDAsMCwxLDExLDEuMzFzLTMuOTUsMy4wOC0uNDQsNCwzOC42Niw0LjgzLDQxLjI5LDQuODMsMzAuMzIuODcsNTEuNCw0LjgzLDE0LjUsMTUuMzcsMTMuMTgsMjIuNDEtMjMuNzIsMjAuNjQtMzEuMTksMjguNTVjLTYsNi4zNC0yMi41MSwxMi42NS0yNS45MSwxMy42Mi0zLjA4Ljg4LTI1LjA1LDE1LjgyLTI3LjI0LDE3LjEzcy04LjM1LDQuNC0yMy4yOSw2LjU5LTQxLjczLDIwLjY1LTQyLjE3LDIyUzk3LDI5MSw5NC40MSwyODkuMjUsNzUuMDgsMjk1LDY3LjE3LDI5Ny42cy0xNC4wNiw5LjIyLTguNzksMTUuODEsMjEuNTMtLjg4LDI0LjE3LTMuMDcsMTQuNDktNS4yNywxNy41Ny02LjE1LDYuMTUtNC40LDEyLjc0LTkuNjcsMTYuMjUtNS4yNywyOC41NS0xMC41NCwzOC42Ni03LjQ3LDQyLjE4LTcuOTFTMTkxLjkzLDI3MC44LDIyNCwyNjJjMCwwLDE1LjI0LTUsMjYuMjEtMy4yMiwwLDAsMTgsMy41MSwyNi4zNiwzLjk1czIyLjg1LTIuMTksMjUuOTMtMy41MSwyMS41Mi0xMS40MiwyMy4yOC02LjU5LDMuMDcsMTQuOTQsMTAuMSwyMS41MywyMC42NSwyOS40MywxOS4zMywzMy4zOC0uODcsOS4yMyw0LjgzLDkuMjMsMjguMTItMy4wOCwzMS4xOS0zLjA4YzAsMCwxNy41OCwwLDE2LjctNS43MXMtNy01LjcxLTExLjQyLTQuODMtMTMuNjItMi4yLTIyLjQxLTEwLjExLTEzLjYyLTI4LjExLTE4LjQ1LTM3Ljc3UzM0My43OSwyMjgsMzMxLjkzLDIyOC45MnMtMzUuNTksMS4zMS0yNy4yNC01LjcxYzEzLjYzLTExLjQ4LDEyLjYtMTMuOTEsMjYuMDctMjcuMDksNS4zNS01LjI0LDIwLjY0LTcuOTEsMjQuNi03LjkxczIwLjY1LTYuNTksMjQuNi03LjQ3LDIxLjA5LTEuMzIsMjQuNi00LjM5LDE1LjgyLTcuNDcsMjAuNjUtNy40NywyMy0uODgsMjMtLjg4YzcsMCw3LTEyLjMsNy0xMi4zbDE2OC43LTI0LjZzLTE1NC4wNiwyMC41LTE2Mi44NCwyMi4yNmExMC4yOSwxMC4yOSwwLDAsMC0yLjY3LjhjLS41NC0uNzMtMS45My0xLjkyLTQuOTUtMy43My0xMS43MS03LTE0LjA2LjU4LTE0LjA2LjU4LTItLjI5LTExLjEyLDIuMDUtMTMuMzIsNC42OXMtMTIuNzQsMi42NC0xOC40NSw0LjM5LTIyLjQxLDEuNzYtMjUsMi42NC0xOC44OSw0LTI4LjU2LDQtMTguODkuNDQtMjEuNTItLjg4LDEuMzEtNy45LDQuODMtMTQuNDktMS4zMi0xNy4xNC00LTIxLjA5Yy0xLjUyLTIuMjctNS40OS0zLTkuMzQtM2EzNywzNywwLDAsMC03LjM2Ljc1Ii8+PC9jbGlwUGF0aD48L2RlZnM+PHRpdGxlPmxvZ288L3RpdGxlPjxwYXRoIGNsYXNzPSJjbHMtMiIgZD0iTTQwOS45NCwzODEuODVsLTEuMzgtLjkxTDEzLjQyLDExOWw0NTEtMTA0LjU1Wk0xOC42NSwxMTkuOTQsNDA4LjM0LDM3OC4yNyw0NjEuOTEsMTcuMloiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEyNy42IC0xNC40NSkiLz48cG9seWdvbiBjbGFzcz0iY2xzLTIiIHBvaW50cz0iNDg1Ljk4IDQwMC40MiAxNzIuNzcgNzUuMDcgNjE4LjYgMzUuNzcgNDg3LjcyIDM5NC42OCA0ODUuNzUgMzkzLjk2IDYxNS40OSAzOC4xNiAxNzcuMzQgNzYuNzggNDg3LjQ5IDM5OC45NyA0ODUuOTggNDAwLjQyIi8+PGcgY2xhc3M9ImNscy0zIj48cGF0aCBjbGFzcz0iY2xzLTQiIGQ9Ik00MTkuNDksMTMzLjA4czIuMzQtNy42MiwxNC4wNi0uNTktMS4xNyw0LjY5LDcuNjEsMi45M1M2MDQsMTEzLjE2LDYwNCwxMTMuMTZMNDM1LjMxLDEzNy43N3MwLDEyLjMtNywxMi4zYzAsMC0xOC4xNi44Ny0yMywuODdzLTE3LjEzLDQuNC0yMC42NCw3LjQ3LTIwLjY1LDMuNTItMjQuNiw0LjQtMjAuNjUsNy40Ni0yNC42MSw3LjQ2LTE4Ljg5LDMuMDgtMjQuNiw3LjkxLTc0LjY4LDU3LjExLTEwNi43NSw2NS45LTM2LjksMTMuNjItNDAuNDIsMTQuMDYtMjkuODcsMi42My00Mi4xNyw3LjktMjIsNS4yOC0yOC41NiwxMC41NS05LjY2LDguNzgtMTIuNzQsOS42Ni0xNC45Myw0LTE3LjU3LDYuMTUtMTguODksOS42Ny0yNC4xNiwzLjA4Ljg4LTEzLjE4LDguNzktMTUuODIsMjQuNi0xMC4xLDI3LjIzLTguMzQsMTEuNDItNC40LDExLjg2LTUuNzEsMjcuMjQtMTkuNzcsNDIuMTgtMjIsMjEuMDgtNS4yNywyMy4yOC02LjU5UzE3NiwyMjAuOCwxNzksMjE5LjkyYzMuNC0xLDE5LjkzLTcuMjgsMjUuOTItMTMuNjIsNy40Ny03LjkxLDI5Ljg3LTIxLjUzLDMxLjE5LTI4LjU2czcuOTEtMTguNDUtMTMuMTgtMjIuNC00OC43Ni00LjgzLTUxLjQtNC44My0zNy43OC00LTQxLjI5LTQuODQuNDMtMy45NS40My0zLjk1YTkxLjY3LDkxLjY3LDAsMCwwLTExLTEuMzJjLTMuNTEsMC0xMS01LjcxLjg4LTcuOTFzMTgsMS43NiwyMC4yMSwzLjUyLDcuNDcsMy4wNywxMS44NiwzLjA3LDMzLjM5LTMuNTEsNDAuODYtMi42MywxOS4zMywxLjc1LDIzLjcyLDIuMTksMjUuNDgsNC40LDM4LjY2LDAsMTQuOTQtNy40NiwxNC45NC0xMC41NCwxLjMxLTE1LjgxLDguMzQtMTcuNTcsMTMuNjIuNDQsMTcuNTctLjQ0LDE0LjA2LTEuNzYsMTYuNywyLjIsNy40NywxNC40OSwzLjk1LDIxLjA4LTcuNDcsMTMuMTgtNC44MywxNC41LDExLjg2Ljg4LDIxLjUzLjg4LDI1LjkyLTMuMDgsMjguNTUtNCwxOS4zMy0uODcsMjUtMi42MywxNi4yNi0xLjc2LDE4LjQ1LTQuMzksMTEuMjgtNSwxMy4zMy00LjY5IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMjcuNiAtMTQuNDUpIi8+PHBhdGggY2xhc3M9ImNscy00IiBkPSJNNDE5LjQ5LDEzMy4wOHMyLjM0LTcuNjIsMTQuMDYtLjU5LTEuMTcsNC42OSw3LjYxLDIuOTNTNjA0LDExMy4xNiw2MDQsMTEzLjE2TDQzNS4zMSwxMzcuNzdzMCwxMi4zLTcsMTIuM2MwLDAtMTguMTYuODctMjMsLjg3cy0xNy4xMyw0LjQtMjAuNjQsNy40Ny0yMC42NSwzLjUyLTI0LjYsNC40LTIwLjY1LDcuNDYtMjQuNjEsNy40Ni0xOC44OSwzLjA4LTI0LjYsNy45MS03NC42OCw1Ny4xMS0xMDYuNzUsNjUuOS0zNi45LDEzLjYyLTQwLjQyLDE0LjA2LTI5Ljg3LDIuNjMtNDIuMTcsNy45LTIyLDUuMjgtMjguNTYsMTAuNTUtOS42Niw4Ljc4LTEyLjc0LDkuNjYtMTQuOTMsNC0xNy41Nyw2LjE1LTE4Ljg5LDkuNjctMjQuMTYsMy4wOC44OC0xMy4xOCw4Ljc5LTE1LjgyLDI0LjYtMTAuMSwyNy4yMy04LjM0LDExLjQyLTQuNCwxMS44Ni01LjcxLDI3LjI0LTE5Ljc3LDQyLjE4LTIyLDIxLjA4LTUuMjcsMjMuMjgtNi41OVMxNzYsMjIwLjgsMTc5LDIxOS45MmMzLjQtMSwxOS45My03LjI4LDI1LjkyLTEzLjYyLDcuNDctNy45MSwyOS44Ny0yMS41MywzMS4xOS0yOC41NnM3LjkxLTE4LjQ1LTEzLjE4LTIyLjQtNDguNzYtNC44My01MS40LTQuODMtMzcuNzgtNC00MS4yOS00Ljg0LjQzLTMuOTUuNDMtMy45NWE5MS42Nyw5MS42NywwLDAsMC0xMS0xLjMyYy0zLjUxLDAtMTEtNS43MS44OC03LjkxczE4LDEuNzYsMjAuMjEsMy41Miw3LjQ3LDMuMDcsMTEuODYsMy4wNywzMy4zOS0zLjUxLDQwLjg2LTIuNjMsMTkuMzMsMS43NSwyMy43MiwyLjE5LDI1LjQ4LDQuNCwzOC42NiwwLDE0Ljk0LTcuNDYsMTQuOTQtMTAuNTQsMS4zMS0xNS44MSw4LjM0LTE3LjU3LDEzLjYyLjQ0LDE3LjU3LS40NCwxNC4wNi0xLjc2LDE2LjcsMi4yLDcuNDcsMTQuNDksMy45NSwyMS4wOC03LjQ3LDEzLjE4LTQuODMsMTQuNSwxMS44Ni44OCwyMS41My44OCwyNS45Mi0zLjA4LDI4LjU1LTQsMTkuMzMtLjg3LDI1LTIuNjMsMTYuMjYtMS43NiwxOC40NS00LjM5LDExLjI4LTUsMTMuMzMtNC42OSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTI3LjYgLTE0LjQ1KSIvPjwvZz48ZyBjbGFzcz0iY2xzLTUiPjxyZWN0IGNsYXNzPSJjbHMtNCIgeD0iNjUuMDIiIHk9IjY2LjUiIHdpZHRoPSI3MjIuMjMiIGhlaWdodD0iMjkxLjciLz48cmVjdCBjbGFzcz0iY2xzLTQiIHk9IjIzLjQ0IiB3aWR0aD0iODYxLjkzIiBoZWlnaHQ9IjM1MC41NyIvPjwvZz48ZyBjbGFzcz0iY2xzLTMiPjxwYXRoIGNsYXNzPSJjbHMtMiIgZD0iTTQyOS40NSwxNDIuMDVzMi4zNS03LjYyLDE0LjA2LS41OS0xLjE3LDQuNjksNy42MSwyLjkzUzYxNCwxMjIuMTMsNjE0LDEyMi4xM2wtMTY4LjY5LDI0LjZzMCwxMi4zLTcsMTIuM2MwLDAtMTguMTYuODgtMjMsLjg4cy0xNy4xNCw0LjM5LTIwLjY1LDcuNDdTMzc0LDE3MC44OSwzNzAsMTcxLjc3cy0yMC42NSw3LjQ3LTI0LjYsNy40Ny0xOC44OSwzLjA4LTI0LjYxLDcuOTFTMjQ2LjExLDI0NC4yNiwyMTQsMjUzLjA1cy0zNi45LDEzLjYxLTQwLjQyLDE0LjA1LTI5Ljg3LDIuNjQtNDIuMTcsNy45MS0yMiw1LjI3LTI4LjU1LDEwLjU0LTkuNjcsOC43OS0xMi43NCw5LjY3LTE0Ljk0LDMuOTUtMTcuNTgsNi4xNVM1My42OSwzMTEsNDguNDIsMzA0LjQ1cy44OC0xMy4xOCw4Ljc5LTE1LjgyLDI0LjYtMTAuMSwyNy4yMy04LjM1LDExLjQzLTQuMzksMTEuODctNS43MSwyNy4yMy0xOS43Nyw0Mi4xNy0yMiwyMS4wOS01LjI4LDIzLjI4LTYuNTksMjQuMTctMTYuMjYsMjcuMjQtMTcuMTRjMy40MS0xLDE5LjkzLTcuMjcsMjUuOTItMTMuNjIsNy40Ny03LjksMjkuODctMjEuNTIsMzEuMTktMjguNTVzNy45MS0xOC40NS0xMy4xOC0yMi40MS00OC43Ni00LjgzLTUxLjQtNC44My0zNy43OC0zLjk1LTQxLjI5LTQuODMuNDQtMy45NS40NC0zLjk1YTkxLjkzLDkxLjkzLDAsMCwwLTExLTEuMzJjLTMuNTEsMC0xMS01LjcxLjg4LTcuOTFzMTgsMS43NiwyMC4yMSwzLjUxLDcuNDcsMy4wOCwxMS44NiwzLjA4LDMzLjM5LTMuNTEsNDAuODYtMi42NCwxOS4zMywxLjc2LDIzLjcyLDIuMiwyNS40OCw0LjM5LDM4LjY2LDAsMTQuOTQtNy40NywxNC45NC0xMC41NCwxLjMxLTE1LjgyLDguMzQtMTcuNTgsMTMuNjIuNDQsMTcuNTgtLjQzLDE0LjA1LTEuNzYsMTYuNjksMi4xOSw3LjQ3LDE0LjUsMy45NSwyMS4wOS03LjQ2LDEzLjE4LTQuODMsMTQuNSwxMS44Ni44NywyMS41My44NywyNS45Mi0zLjA3LDI4LjU1LTQsMTkuMzMtLjg4LDI1LTIuNjMsMTYuMjYtMS43NiwxOC40NS00LjQsMTEuMjgtNSwxMy4zMy00LjY4IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMjcuNiAtMTQuNDUpIi8+PC9nPjxnIGNsYXNzPSJjbHMtNiI+PHJlY3QgY2xhc3M9ImNscy03IiB4PSI3NC45OCIgeT0iNzUuNDYiIHdpZHRoPSI3MjIuMjMiIGhlaWdodD0iMjkxLjciLz48cmVjdCBjbGFzcz0iY2xzLTgiIHg9IjkuOTYiIHk9IjMyLjQxIiB3aWR0aD0iODYxLjkzIiBoZWlnaHQ9IjM1MC41NyIvPjwvZz48ZyBjbGFzcz0iY2xzLTMiPjxwYXRoIGNsYXNzPSJjbHMtOSIgZD0iTTMzMC43NiwxOTYuMTJjNS4zNC01LjI0LDIwLjY1LTcuOTEsMjQuNi03LjkxczIwLjY1LTYuNTksMjQuNi03LjQ3LDIxLjA5LTEuMzIsMjQuNi00LjM5LDE1LjgyLTcuNDcsMjAuNjUtNy40NywyMy0uODgsMjMtLjg4YzcsMCw3LTEyLjMsNy0xMi4zbDE2OC43LTI0LjZzLTE1NC4wNiwyMC41LTE2Mi44NCwyMi4yNSw0LjEsNC4xMS03LjYyLTIuOTItMTQuMDUuNTgtMTQuMDUuNThjLTIuMDUtLjI5LTExLjEzLDIuMDUtMTMuMzMsNC42OXMtMTIuNzQsMi42My0xOC40NSw0LjM5LTIyLjQxLDEuNzYtMjUsMi42NC0xOC44OSw0LTI4LjU2LDQtMTguODkuNDQtMjEuNTMtLjg4LDEuMzItNy45MSw0Ljg0LTE0LjQ5LTEuMzItMTcuMTQtNC0yMS4wOS0xMi43NC0zLjA4LTE2LjY5LTIuMi0xMC41NC0xLjMyLTE3LjU3LjQ0UzI5MC43OCwxNDMsMjkwLjc4LDE0NnMtMS43Niw2LjE1LTE0Ljk0LDEwLjU1LTM0LjI2LjQ0LTM4LjY2LDAtMTYuMjUtMS4zMi0yMy43Mi0yLjJTMTc3LDE1NywxNzIuNjEsMTU3cy05LjY3LTEuMzItMTEuODctMy4wOC04LjM0LTUuNzEtMjAuMi0zLjUxLTQuNCw3LjktLjg4LDcuOWE5Miw5MiwwLDAsMSwxMSwxLjMycy0zLjk1LDMuMDgtLjQ0LDQsMzguNjYsNC44Myw0MS4zLDQuODMsMzAuMzEuODgsNTEuNCw0LjgzLDE0LjQ5LDE1LjM4LDEzLjE3LDIyLjQxLTIzLjcyLDIwLjY0LTMxLjE5LDI4LjU1Yy02LDYuMzQtMjIuNTEsMTIuNjUtMjUuOTIsMTMuNjItMy4wNy44OC0yNSwxNS44Mi0yNy4yMywxNy4xM3MtOC4zNSw0LjQtMjMuMjksNi41OS00MS43MywyMC42NS00Mi4xNywyMlM5NywyOTEsOTQuNDEsMjg5LjI1LDc1LjA4LDI5NSw2Ny4xNywyOTcuNnMtMTQuMDYsOS4yMi04Ljc5LDE1LjgxLDIxLjUzLS44OCwyNC4xNy0zLjA3LDE0LjQ5LTUuMjgsMTcuNTctNi4xNSw2LjE1LTQuNCwxMi43NC05LjY3LDE2LjI1LTUuMjcsMjguNTUtMTAuNTQsMzguNjYtNy40Nyw0Mi4xOC03LjkxUzE5MS45MywyNzAuOCwyMjQsMjYyYzAsMCwxNS4yMy01LDI2LjIyLTMuMjIsMCwwLDE4LDMuNTEsMjYuMzUsMy45NXMyMi44NS0yLjE5LDI1LjkyLTMuNTEsMjEuNTMtMTEuNDIsMjMuMjktNi41OSwzLjA3LDE0Ljk0LDEwLjEsMjEuNTMsMjAuNjUsMjkuNDMsMTkuMzMsMzMuMzgtLjg4LDkuMjMsNC44Myw5LjIzLDI4LjEyLTMuMDgsMzEuMi0zLjA4YzAsMCwxNy41NywwLDE2LjY5LTUuNzFzLTctNS43MS0xMS40Mi00LjgzLTEzLjYyLTIuMi0yMi40MS0xMC4xLTEzLjYyLTI4LjEyLTE4LjQ1LTM3Ljc5UzM0My43OSwyMjgsMzMxLjkzLDIyOC45MnMtMzUuNTksMS4zMS0yNy4yNC01LjcyYzEzLjYzLTExLjQ3LDEyLjYtMTMuOSwyNi4wNy0yNy4wOCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTI3LjYgLTE0LjQ1KSIvPjwvZz48ZyBjbGFzcz0iY2xzLTEwIj48cmVjdCBjbGFzcz0iY2xzLTkiIHg9IjUzLjgiIHk9IjYwLjUyIiB3aWR0aD0iNzE1Ljc5IiBoZWlnaHQ9IjMyMC45OSIvPjxwYXRoIGNsYXNzPSJjbHMtMTEiIGQ9Ik0zMy4yNCwzNDYuMDdjLjYyLDQuNyw2LjcxLDE2LjcyLDIuMSw3LjY4LTIuNzQtNy44NC00LjY5LTEzLjc2LTIuMS03LjY4IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMjcuNiAtMTQuNDUpIi8+PHBhdGggY2xhc3M9ImNscy0xMSIgZD0iTTMzLjY0LDM0My40OWM0LjE1LDEwLjc3LDYuOTQsMTYuNSwxMS42NCwzMS4xMy0zLjc1LTEwLjE4LTguMi0yMS40My0xMS42NC0zMS4xMyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTI3LjYgLTE0LjQ1KSIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtMTEiIHBvaW50cz0iMzQxLjcgMzY2LjI0IDM0MS41NyAzNjYuNTIgMzQxLjI5IDM0NS41MiAzNDEuNyAzNjYuMjQiLz48cGF0aCBjbGFzcz0iY2xzLTExIiBkPSJNMTk2LjIyLDM0NC40OWMxLjA4LDQuNjMsOC45MiwxNS42NiwzLDcuMzctMy43My03LjQxLTYuNC0xMy0zLTcuMzciIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEyNy42IC0xNC40NSkiLz48cGF0aCBjbGFzcz0iY2xzLTExIiBkPSJNMTk2LjQ5LDM0MS44YzUuNTIsMTAuMTQsOSwxNS40NywxNS40NywyOS40Mi01LTkuNjUtMTAuODUtMjAuMjMtMTUuNDctMjkuNDIiIHRyYW5zZm9ybT0idHJhbnNsYXRlKDEyNy42IC0xNC40NSkiLz48cG9seWdvbiBjbGFzcz0iY2xzLTExIiBwb2ludHM9IjUxMyAzNjEuNjkgNTEyLjg3IDM2MS45NyA1MTIuNTggMzQwLjk3IDUxMyAzNjEuNjkiLz48cGF0aCBjbGFzcz0iY2xzLTQiIGQ9Ik0zMy4yNCwzNDkuNThjLjYyLDQuNzEsNi43MSwxNi43MiwyLjEsNy42OS0yLjc0LTcuODQtNC42OS0xMy43Ny0yLjEtNy42OSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTI3LjYgLTE0LjQ1KSIvPjxwYXRoIGNsYXNzPSJjbHMtNCIgZD0iTTMzLjY0LDM0N2M0LjE1LDEwLjc2LDYuOTQsMTYuNSwxMS42NCwzMS4xM0M0MS41MywzNjgsMzcuMDgsMzU2LjcxLDMzLjY0LDM0NyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMTI3LjYgLTE0LjQ1KSIvPjxwb2x5Z29uIGNsYXNzPSJjbHMtNCIgcG9pbnRzPSIzNDEuNyAzNjkuNzYgMzQxLjU3IDM3MC4wMyAzNDEuMjkgMzQ5LjAzIDM0MS43IDM2OS43NiIvPjxwYXRoIGNsYXNzPSJjbHMtNCIgZD0iTTE5Ni4yMiwzNDhjMS4wOCw0LjY0LDguOTIsMTUuNjcsMyw3LjM4LTMuNzMtNy40MS02LjQtMTMuMDUtMy03LjM4IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMjcuNiAtMTQuNDUpIi8+PHBhdGggY2xhc3M9ImNscy00IiBkPSJNMTk2LjQ5LDM0NS4zMWM1LjUyLDEwLjE0LDksMTUuNDcsMTUuNDcsMjkuNDItNS05LjY0LTEwLjg1LTIwLjIzLTE1LjQ3LTI5LjQyIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMjcuNiAtMTQuNDUpIi8+PHBvbHlnb24gY2xhc3M9ImNscy00IiBwb2ludHM9IjUxMyAzNjUuMjEgNTEyLjg3IDM2NS40OCA1MTIuNTggMzQ0LjQ5IDUxMyAzNjUuMjEiLz48L2c+PC9zdmc+", "linksColor": "#D8FEE2", "position": "bottom", "rejectButtonCaptionColor": "#313E5F", "rejectButtonColor": "#D8FEE2", "rejectButtonDisplay": true, "theme": "night_sky-dark_trend" } };
+    </script>
+    <script type="text/javascript" src="//cdn.iubenda.com/cs/gpp/stub.js"></script>
+    <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
+</body>
+
+</html>
